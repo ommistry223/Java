@@ -5,20 +5,20 @@ public class Student {
     private String stdName;
 
     public Student(){}
-    public void setdataId(int stdID)
+    public void setId(int stdID)
     {
         this.stdId=stdID;
     }
-    public void setdataName(String stdName)
+    public void setName(String stdName)
     {
         this.stdName=stdName;
     }
-
-    public int getdataId()
+    
+    public int getId()
     {
         return stdId;
     }
-    public String getdataName()
+    public String getName()
     {
         return stdName;
     }
