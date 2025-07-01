@@ -5,9 +5,9 @@ public class Admin {
 
         Student Std = new Student();
 
-        Std.setdataId(100);
-        Std.setdataName("Om Misty");
-        System.out.println("Student Name: " + Std.getdataId());
-        System.out.println("Student ID: " + Std.getdataName());
+        Std.setId(100);
+        Std.setName("Om Misty");
+        System.out.println("Student Name: " + Std.getId());
+        System.out.println("Student ID: " + Std.getName());
     }
 }
