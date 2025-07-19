@@ -28,7 +28,7 @@ public class Main {
 
         // If you overrode toString() instead:
         System.out.println("\nEmployee details:");
-        System.out.println("Emplyoee Data");
+        System.out.println("Employee Data");
         employee.display();
 
         sc.close();
